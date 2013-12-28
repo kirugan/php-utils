@@ -24,7 +24,7 @@ class StringUtils {
         return trim($str);
     }
     
-    public static function remoteRedundantWS($input){
+    public static function removeRedundantWS($input){
         return preg_replace('!\s+!', ' ', $input);
     }
     
